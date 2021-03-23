@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "vue-loader": "^15.9.6",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "@meilisearch/instant-meilisearch": "^0.3.2",
+        "express": "^4.17.1",
+        "instantsearch.css": "^7.4.5",
+        "vue": "^2.6.12",
+        "vue-instantsearch": "^3.5.0",
+        "vue-router": "^3.5.1",
+        "vue-server-renderer": "^2.6.12",
+        "webpack-merge": "^5.7.3"
+    }
+}
